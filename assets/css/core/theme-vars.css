@@ -1,12 +1,12 @@
 :root {
-    --gap: 24px;
+    --gap: 25px;
     --content-gap: 20px;
     --nav-width: 960px;
-    --main-width: 720px;
+    --main-width: 800px;
     --post-width: 720px;
     --header-height: 60px;
     --footer-height: 80px;
-    --radius: 8px;
+    --radius: 12px;
     --monospace: "Lucida Console", Monaco, "Consolas", monospace;
 
     --theme: rgb(255, 255, 255);
@@ -56,6 +56,7 @@
     --link-underline-shadow: 0 1px 0 var(--link-color);
     --link-hover-underline-color: var(--link-hover-color);
     --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+    --signature: var(--tertitary);
 }
 
 .list-page {
